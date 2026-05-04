@@ -12,7 +12,7 @@ Before running the tests, ensure you have the following installed on your machin
 
 1. **Clone the repository** (or extract the folder):
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/thiloshi/ITPM_assignment1.git
    cd IT23833470
    ```
 
