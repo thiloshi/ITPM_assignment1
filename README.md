@@ -33,10 +33,10 @@ Before running the tests, ensure you have the following installed on your machin
 To execute the automated test cases and record the results into the Excel file, navigate to the folder containing the script and run the following command in your Command Prompt/Terminal:
 
 ```bash
-python "IT23833470_test_automation.py" --excel "IT23833470_Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1
+python IT23833470.py --excel "IT23833470.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1
 ```
 
 ### Important Notes:
-- **Do not open the Excel file** (`IT23833470_Assignment 1 - Test cases.xlsx`) while the tests are running, as it will cause a `Permission Denied` error when the script attempts to save the results.
+- **Do not open the Excel file** (`IT23833470.xlsx`) while the tests are running, as it will cause a `Permission Denied` error when the script attempts to save the results.
 - The automation will interact with the browser directly. Please do not interrupt the mouse or keyboard inputs while the browser is actively typing the test cases.
 - Execution will take approximately 20-25 minutes to complete all test cases. The results will be populated under the **Actual Output** and **Status** columns in the Excel file.
